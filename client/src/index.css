@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  position: relative;
+  background-image: url("https://startersites.io/blocksy/e-bike/wp-content/uploads/2024/05/background-pattern-2.svg");
+}
+
+/* Container styles */
+.tabs-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Individual tab button styles */
+[role="tab"] {
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+/* Active tab styles */
+[role="tab"][aria-selected="true"] {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
+[role="tab"][aria-selected="true"]:focus {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f !important;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
+[role="tab"][aria-selected="true"]:visited {
+  color: #264c4f;
+  border-bottom: 2px solid #264c4f !important;
+  background-color: white;
+  outline: none;
+  --tw-ring-offset-shadow: none !important;
+  --tw-ring-shadow: none !important;
+  box-shadow: none !important;
+}
